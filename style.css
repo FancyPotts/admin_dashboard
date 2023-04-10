@@ -14,3 +14,18 @@ body {
 .wrapper > div {
     border: 1px solid black;
 }
+
+#main {
+    grid-area: 2 / 2 / 3 / 3;
+    border: 4px solid blue;
+}
+
+#sidebar {
+    grid-area: 1 / 1 / 3;
+    border: 4px solid red;
+}
+
+#header {
+    grid-area: 1 / 2 / 2 / 3;
+    border: 4px solid green;
+}
