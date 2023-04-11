@@ -10,9 +10,22 @@
   <body>
     <div class="wrapper">
       <div id="sidebar">sidebar nav</div>
-      <div id="header">header</div>
+      <div id="header">
+        <div id="search">
+          <form action="" method="get">
+            <button>Search</button>
+            <input type="text" />
+          </form>
+        </div>
+        <div id="user">user</div>
+        <div id="greet">Hello user</div>
+        <div id="buttons">
+          <button>New</button><button>Upload</button><button>Share</button>
+        </div>
+      </div>
       <div id="main">
         <div id="cards">
+          <div class="title">Projects</div>
           <div class="card">1</div>
           <div class="card">2</div>
           <div class="card">3</div>
@@ -20,8 +33,14 @@
           <div class="card">5</div>
           <div class="card">6</div>
         </div>
-        <div id="announce">announcement</div>
-        <div id="trending">trending</div>
+        <div id="announce">
+          announcement
+          <div class="card"></div>
+        </div>
+        <div id="trending">
+          trending
+          <div class="card"></div>
+        </div>
       </div>
     </div>
   </body>
