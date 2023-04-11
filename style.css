@@ -82,11 +82,26 @@ body {
     display: inline-flex;
 }
 
+input {
+    background-color: #DDDDDD;
+    border: none;
+    border-radius: 25px;
+    width: 75%;
+}
+
+input:active {
+    border: none;
+}
+
 #buttons > button {
     border: none;
-    background-color: cadetblue;
+    background-color: rgb(31, 151, 230);
     border-radius: 30px;
     padding: 10px;
     width: 80px;
+    color: white;
+}
+
+#buttons > button:hover {
     
 }
