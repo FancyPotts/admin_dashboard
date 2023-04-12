@@ -77,9 +77,10 @@ body {
 }
 
 #buttons {
-    justify-content:space-evenly;
+    display: flex;
+    justify-content:center;
     align-items: center;
-    display: inline-flex;
+    gap: 2rem;
 }
 
 input {
@@ -103,5 +104,5 @@ input:active {
 }
 
 #buttons > button:hover {
-    
+    background-color: rgb(31, 203, 230);
 }
