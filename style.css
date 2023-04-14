@@ -58,6 +58,11 @@ body {
     padding: 5px;
 }
 
+#trending,
+#announce {
+    padding: 5px;
+}
+
 #trending {
     border: 4px solid pink;
     grid-column: 2 / 3;
@@ -72,6 +77,11 @@ body {
     grid-row: 1 / 2;
     display: grid;
     grid-template-rows: 1rem;
+}
+
+#announce > .card,
+#trending > .card {
+    margin: 3px;
 }
 
 #cards > .title {
